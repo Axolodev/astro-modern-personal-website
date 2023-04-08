@@ -26,7 +26,7 @@ const currentLanguage = getLangFromUrl(Astro.url);
     </div>
     <ul class="grow shrink">
       <!-- Sidebar content here -->
-      <li><a id="home" href={`/`}>Home</a></li>
+      <li><a id="home" href={`/${currentLanguage}`}>Home</a></li>
       <li>
         <a id="portfolio" href={`/${currentLanguage}/portfolio`}>Projects</a>
       </li>
