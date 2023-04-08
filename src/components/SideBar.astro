@@ -1,23 +1,40 @@
+---
+import { getLangFromUrl } from "../i18n/utils";
+
+const currentLanguage = getLangFromUrl(Astro.url);
+---
+
 <div class="drawer-side bg-base-200">
   <label for="my-drawer" class="drawer-overlay bg-base-200"></label>
-  <div class="menu flex flex-col flex-nowrap p-4 overflow-y-auto w-[21rem] bg-base-200 text-base-content">
+  <div
+    class="menu flex flex-col flex-nowrap p-4 overflow-y-auto w-[21rem] bg-base-200 text-base-content"
+  >
     <div class="w-fit">
       <a href="/">
-        <div class="avatar transition ease-in-out w-1/2 hover:scale-[102%] block m-auto mt-3 mb-6">
+        <div
+          class="avatar transition ease-in-out w-1/2 hover:scale-[102%] block m-auto mt-3 mb-6"
+        >
           <div>
-            <img class="mask mask-circle" src="/profile.jpg" alt="profile image" />
+            <img
+              class="mask mask-circle"
+              src="/profile.jpg"
+              alt="profile image"
+            />
           </div>
         </div>
       </a>
     </div>
     <ul class="grow shrink">
       <!-- Sidebar content here -->
-      <li><a id="home" href="/">Home</a></li>
-      <li><a id="projects" href="/projects">Projects</a></li>
-      <li><a id="services" href="/services">Services</a></li>
-      <li><a id="store" href="/store">Store</a></li>
-      <li><a id="blog" href="/blog/">Blog</a></li>
-      <li><a id="cv" href="/cv">CV</a></li>
+      <li><a id="home" href={`/`}>Home</a></li>
+      <li>
+        <a id="portfolio" href={`/${currentLanguage}/portfolio`}>Projects</a>
+      </li>
+      <li><a id="courses" href={`/${currentLanguage}/courses`}>Courses</a></li>
+      <!-- <li><a id="services" href={`/${currentLanguage}/services`}>Services</a></li> -->
+      <!-- <li><a id="store" href={`/${currentLanguage}/store`}>Store</a></li> -->
+      <li><a id="blog" href={`/${currentLanguage}/blog`}>Blog</a></li>
+      <li><a id="cv" href={`/${currentLanguage}/cv`}>CV</a></li>
       <li><a href="mailto:contact.manuelernestog@gmail.com">Contact</a></li>
     </ul>
     <div class="social-icons px-4 my-2 flex self-center">
@@ -41,7 +58,13 @@
           ></path></svg
         >
       </a>
-      <a href="https://github.com/manuelernestog" target="_blank" class="mx-3" aria-label="Github" title="Github">
+      <a
+        href="https://github.com/manuelernestog"
+        target="_blank"
+        class="mx-3"
+        aria-label="Github"
+        title="Github"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -55,7 +78,13 @@
           ></path>
         </svg>
       </a>
-      <a href="https://twitter.com/manuelernestog" target="_blank" class="mx-3" aria-label="Twitter" title="Twitter">
+      <a
+        href="https://twitter.com/manuelernestog"
+        target="_blank"
+        class="mx-3"
+        aria-label="Twitter"
+        title="Twitter"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -86,15 +115,24 @@
         </svg>
       </a>
 
-      <a href="/rss.xml" target="_blank" class="mx-3" aria-label="RSS Feed" title="RSS Feed">
+      <a
+        href="/rss.xml"
+        target="_blank"
+        class="mx-3"
+        aria-label="RSS Feed"
+        title="RSS Feed"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
           viewBox="0 0 24 24"
           style="fill: currentColor;transform: ;msFilter:;"
-          ><path d="M19 20.001C19 11.729 12.271 5 4 5v2c7.168 0 13 5.832 13 13.001h2z"></path><path
-            d="M12 20.001h2C14 14.486 9.514 10 4 10v2c4.411 0 8 3.589 8 8.001z"></path><circle cx="6" cy="18" r="2"></circle>
+          ><path
+            d="M19 20.001C19 11.729 12.271 5 4 5v2c7.168 0 13 5.832 13 13.001h2z"
+          ></path><path
+            d="M12 20.001h2C14 14.486 9.514 10 4 10v2c4.411 0 8 3.589 8 8.001z"
+          ></path><circle cx="6" cy="18" r="2"></circle>
         </svg>
       </a>
     </div>
@@ -102,9 +140,10 @@
 </div>
 <script>
   const homeLink = document.getElementById("home");
-  const projectsLink = document.getElementById("projects");
-  const servicesLink = document.getElementById("services");
-  const storeLink = document.getElementById("store");
+  const projectsLink = document.getElementById("portfolio");
+  const coursesLink = document.getElementById("courses");
+  // const servicesLink = document.getElementById("services");
+  // const storeLink = document.getElementById("store");
   const blogLink = document.getElementById("blog");
   const cvLink = document.getElementById("cv");
 
@@ -112,17 +151,19 @@
 
   const url = window.location.href;
 
-  const pages = [projectsLink, servicesLink, storeLink, blogLink, cvLink];
+  const pages = [projectsLink, coursesLink, blogLink, cvLink].filter((e) =>
+    Boolean(e)
+  ) as unknown as HTMLElement[];
 
   const activeClass = "bg-base-300"; // For primary color replace with `active` class
 
   pages.forEach((elem) => {
     if (url.includes(elem.id)) {
       isHome = false;
-      elem.classList.add(activeClass);
+      elem?.classList.add(activeClass);
     }
   });
   if (isHome) {
-    homeLink.classList.add(activeClass);
+    homeLink?.classList.add(activeClass);
   }
 </script>

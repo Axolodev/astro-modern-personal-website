@@ -1,0 +1,28 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+import EntryCardList from "../../../components/Entry/EntryCardList.astro";
+import EntryNewerButton from "../../../components/Entry/EntryNewerButton.astro";
+import EntryOlderButton from "../../../components/Entry/EntryOlderButton.astro";
+
+export async function getStaticPaths({ paginate }) {
+  const pages = await getCollection("blog");
+  const paths = pages.map((page) => {
+    const [lang, ...slug] = page.slug.split("/");
+    return { params: { lang, slug: slug.join("/") || undefined }, props: page };
+  });
+  return paginate(paths, { pageSize: 10 });
+}
+
+const { lang, slug } = Astro.params;
+const { page } = Astro.props;
+---
+
+<BaseLayout title="Blog">
+  <EntryCardList data={page.data} />
+
+  <div class="flex justify-between">
+    {page.url.prev ? <EntryNewerButton url={page.url.prev} /> : <div />}
+    {page.url.next ? <EntryOlderButton url={page.url.next} /> : <div />}
+  </div>
+</BaseLayout>

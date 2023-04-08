@@ -1,0 +1,29 @@
+---
+import HorizontalCard from "../HorizontalCard.astro";
+
+const { data, collection } = Astro.props;
+---
+
+<ul>
+  {
+    data.map((post) => {
+      let imgUrl: string = post.data.heroImage || post.data.thumbnail;
+      if (!imgUrl.startsWith("/")) {
+        imgUrl = `/${imgUrl}`;
+      }
+      return (
+        <>
+          <HorizontalCard
+            title={post.data.title}
+            img={imgUrl}
+            desc={post.data.description}
+            url={`${collection}/${post.slug}`}
+            target="_self"
+            badge={post.data.badge}
+          />
+          <div class="divider my-0" />
+        </>
+      );
+    })
+  }
+</ul>

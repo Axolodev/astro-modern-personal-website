@@ -1,0 +1,28 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import EntryCardList from "../../components/Entry/EntryCardList.astro";
+import { getCollection } from "astro:content";
+import { getLangFromUrl, useTranslations } from "../../i18n/utils";
+import { languages } from "../../i18n/ui";
+
+export function getStaticPaths() {
+  const paths = Object.keys(languages).map((lang) => ({
+    params: {
+      lang,
+    },
+  }));
+  return paths;
+}
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const posts = (await getCollection("portfolio"))
+  .filter((post) => post.id.startsWith(lang))
+  .map((post) => ({
+    ...post,
+    slug: post.slug.replace(`${lang}/`, ""),
+  }));
+---
+
+<BaseLayout title={t("portfolio.title")}>
+  <EntryCardList data={posts} collection="portfolio" />
+</BaseLayout>

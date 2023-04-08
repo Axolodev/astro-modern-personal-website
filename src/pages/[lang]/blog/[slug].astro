@@ -1,0 +1,23 @@
+---
+import PostLayout from "../../../layouts/PostLayout.astro";
+import getEntryData from "../../../components/Entry/getEntryData";
+
+export async function getStaticPaths() {
+  return getEntryData("blog");
+}
+
+const { entry } = Astro.props;
+const post = entry.data;
+const { Content } = await entry.render();
+---
+
+<PostLayout
+  title={post.title}
+  description={post.description}
+  pubDate={post.pubDate}
+  heroImage={post.heroImage}
+  updatedDate={post.updatedDate}
+  badge={post.badge}
+>
+  <Content />
+</PostLayout>
