@@ -4,7 +4,7 @@ import HorizontalCard from "../components/HorizontalCard.astro";
 import createSlug from "../lib/createSlug";
 import { getAndFilterCollectionByLanguage } from "../lib/getAndFilterCollectionByLanguage";
 
-const posts = (await getAndFilterCollectionByLanguage("portfolio")).sort(
+const posts = (await getAndFilterCollectionByLanguage("projects")).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 

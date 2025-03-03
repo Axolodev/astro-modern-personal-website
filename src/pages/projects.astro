@@ -5,7 +5,7 @@ import createSlug from "../lib/createSlug";
 import { getAndFilterCollectionByLanguage } from "src/lib/getAndFilterCollectionByLanguage";
 
 const portfolioProjects = (
-  await getAndFilterCollectionByLanguage("portfolio")
+  await getAndFilterCollectionByLanguage("projects")
 ).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 
