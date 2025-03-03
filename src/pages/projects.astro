@@ -1,12 +1,12 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import HorizontalCard from "../components/HorizontalCard.astro";
-import { getCollection } from "astro:content";
 import createSlug from "../lib/createSlug";
+import { getAndFilterCollectionByLanguage } from "src/lib/getAndFilterCollectionByLanguage";
 
-const portfolioProjects = (await getCollection("portfolio")).sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
-);
+const portfolioProjects = (
+  await getAndFilterCollectionByLanguage("portfolio")
+).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 
 <BaseLayout title="Projects" sideBarActiveItemID="projects">

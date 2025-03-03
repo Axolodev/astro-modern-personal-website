@@ -1,14 +1,14 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import HorizontalCard from "../components/HorizontalCard.astro";
-import { getCollection } from "astro:content";
 import createSlug from "../lib/createSlug";
+import { getAndFilterCollectionByLanguage } from "../lib/getAndFilterCollectionByLanguage";
 
-const posts = (await getCollection("portfolio")).sort(
+const posts = (await getAndFilterCollectionByLanguage("portfolio")).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 
-const latestPosts = posts.slice(0, 4);
+const latestPosts = posts.slice(0, 3);
 ---
 
 <BaseLayout sideBarActiveItemID="home">
