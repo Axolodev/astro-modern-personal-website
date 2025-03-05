@@ -4,12 +4,10 @@
     "strictNullChecks": true,
     "baseUrl": ".",
     "paths": {
-      "@components/*": [
-        "src/components/*"
-      ],
-      "@layouts/*": [
-        "src/layouts/*"
-      ]
+      "@components/*": ["src/components/*"],
+      "@layouts/*": ["src/layouts/*"],
+      "@lib/*": ["src/lib/*"],
+      "@i18n/*": ["src/i18n/*"]
     },
     "jsx": "react-jsx",
     "jsxImportSource": "react"

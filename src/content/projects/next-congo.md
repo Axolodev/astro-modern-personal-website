@@ -1,13 +1,13 @@
 ---
-title: "Next Congo Platform"
+title: "Nextjs: Congo Theme"
+slug: "nextjs-congo-theme"
 description: "Next.js implementation for Congo's digital services"
 pubDate: "Nov 22 2023"
-heroImage: "/portfolio/congo/thumbnail.png"
+heroImage: "/projects/congo/thumbnail.png"
 tags: ["portfolio", "next-js", "web-development"]
 ---
 
 > [Try a demo here!](https://next-theme-congo.vercel.app/)
-
 
 ## About 
 
@@ -28,11 +28,10 @@ Technologies & methodologies I worked with while developing this project:
 
 ## Images
 
-
-![Homepage](/img/congo/congo-home.png)
+![Homepage](/projects/congo/congo-home.png)
 
 > Homepage
 
-![Contact form](/img/congo/congo-contacto.png)
+![Contact form](/projects/congo/congo-contacto.png)
 
 > Contact form

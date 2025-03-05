@@ -1,0 +1,36 @@
+---
+import ProjectLayout from "@layouts/ProjectLayout.astro";
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const pages = await getCollection("projects");
+
+  const paths = pages.map((page) => {
+    // Extract the language from the id. The format should be "[slug].[language].md".
+    // We can split the id by "." and see how many parts we have. The second to
+    // last part should be the language. If it's not, we'll default to "en".
+    const parts = page.id.split(".");
+    const language = parts.length > 2 ? parts[parts.length - 2] : "en";
+
+    const slug = page.slug;
+    return {
+      params: { language, slug },
+      props: page,
+    };
+  });
+
+  return paths;
+}
+
+const { language } = Astro.params;
+const page = Astro.props;
+const formattedDate = page.data.pubDate.toLocaleString(language);
+
+const { Content } = await page.render();
+---
+
+<ProjectLayout>
+  <h1>{page.data.title}</h1>
+  <p>{formattedDate}</p>
+  <Content />
+</ProjectLayout>

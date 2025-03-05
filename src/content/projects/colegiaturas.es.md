@@ -1,8 +1,9 @@
 ---
 title: "Proyecto Colegiaturas"
+slug: "proyecto-colegiaturas"
 description: "Desarrollo de plataforma educativa para gestión de matrículas estudiantiles"
 pubDate: "Jan 10 2024"
-heroImage: "/portfolio/colegiaturas/thumbnail.png"
+heroImage: "/projects/colegiaturas/thumbnail.png"
 tags: ["portfolio", "educación", "plataforma"]
 ---
 
@@ -26,10 +27,10 @@ Tecnologías usadas para el desarrollo de este proyecto:
 
 ## Imágenes
 
-![Página de inicio de sesión. Incluye una sección de avisos administrados por la empresa.](/img/portfolio/colegiaturas/login.png)
+![Página de inicio de sesión. Incluye una sección de avisos administrados por la empresa.](/projects/colegiaturas/login.png)
 
 Página de inicio de sesión
 
-![Página de inicio. Incluye un listado de avisos, y las ligas correspondientes para navegar dentro de la página](/img/portfolio/colegiaturas/home.png)
+![Página de inicio. Incluye un listado de avisos, y las ligas correspondientes para navegar dentro de la página](/projects/colegiaturas/home.png)
 
 Página de inicio

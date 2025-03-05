@@ -1,8 +1,9 @@
 ---
 title: "Colegiaturas Project"
+slug: "colegiaturas-project"
 description: "Educational platform development for managing student enrollments"
 pubDate: "Jan 10 2024"
-heroImage: "/portfolio/colegiaturas/thumbnail.png"
+heroImage: "/projects/colegiaturas/thumbnail.png"
 tags: ["portfolio", "education", "platform"]
 ---
 
@@ -26,10 +27,10 @@ Technologies I worked with while developing this project.
 
 ## Images
 
-![Login page. Includes a list of important announcements for users of the platform.](/img/portfolio/colegiaturas/login.png)
+![Login page. Includes a list of important announcements for users of the platform.](/projects/colegiaturas/login.png)
 
 Login Page
 
-![Home page. Has a listing of announcements for any users of the platform, appart from a list of relevant links to navigate the site.](/img/portfolio/colegiaturas/home.png)
+![Home page. Has a listing of announcements for any users of the platform, appart from a list of relevant links to navigate the site.](/projects/colegiaturas/home.png)
 
 Home Page

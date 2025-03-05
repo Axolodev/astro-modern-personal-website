@@ -1,8 +1,9 @@
 ---
 title: "Luker's Excellency Club"
+slug: "lukers-excellency-club"
 description: "Brand development and digital transformation for Luker"
 pubDate: "Dec 05 2023"
-heroImage: "/portfolio/luker/thumbnail.png"
+heroImage: "/projects/luker/thumbnail.png"
 tags: ["portfolio", "branding", "digital-transformation"]
 ---
 
@@ -26,14 +27,14 @@ Technologies I worked with while developing this project.
 
 ## Images
 
-![Home page. Includes a slideshow, a list of featured products, and a list of the most bought products.](/img/portfolio/luker/luker-2-home.png)
+![Home page. Includes a slideshow, a list of featured products, and a list of the most bought products.](/projects/luker/luker-2-home.png)
 
 Home page
 
-![Cart page. It has a list of all the products a user has added to their cart and a small card with the user's points.](/img/portfolio/luker/luker-4-cart.png)
+![Cart page. It has a list of all the products a user has added to their cart and a small card with the user's points.](/projects/luker/luker-4-cart.png)
 
 Cart page
 
-![Ranking page. A table where users can compare their results to those of other salespeople.](/img/portfolio/luker/luker-5-ranking.png)
+![Ranking page. A table where users can compare their results to those of other salespeople.](/projects/luker/luker-5-ranking.png)
 
 Ranking where users can compare their results to those of other salespeople

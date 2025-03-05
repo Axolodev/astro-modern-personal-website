@@ -1,8 +1,9 @@
 ---
 title: "Club de la Excelencia Luker"
+slug: "club-de-la-excelencia-luker"
 description: "Desarrollo de marca y transformación digital para Luker"
 pubDate: "Dec 05 2023"
-heroImage: "/portfolio/luker/thumbnail.png"
+heroImage: "/projects/luker/thumbnail.png"
 tags: ["portfolio", "marca", "transformación-digital"]
 ---
 
@@ -25,14 +26,14 @@ Tecnologías usadas para el desarrollo de este proyecto.
 
 ## Imágenes
 
-![Página de inicio. Incluye un slideshow, una lista de productos destacados y una lista de los productos más comprados.](/img/portfolio/luker/luker-2-home.png)
+![Página de inicio. Incluye un slideshow, una lista de productos destacados y una lista de los productos más comprados.](/projects/luker/luker-2-home.png)
 
 Página de inicio
 
-![Página de carrito. Tiene una tabla de todos los productos que un usuario ha agregado a su carrito, y una tarjeta con el saldo disponible para el usuario.](/img/portfolio/luker/luker-4-cart.png)
+![Página de carrito. Tiene una tabla de todos los productos que un usuario ha agregado a su carrito, y una tarjeta con el saldo disponible para el usuario.](/projects/luker/luker-4-cart.png)
 
 Página de carrito
 
-![Página de Ranking. Tiene una tabla donde los usuarios pueden comparar sus resultados con los de otros vendedores.](/img/portfolio/luker/luker-5-ranking.png)
+![Página de Ranking. Tiene una tabla donde los usuarios pueden comparar sus resultados con los de otros vendedores.](/projects/luker/luker-5-ranking.png)
 
 Ranking donde los usuarios pueden comparar sus resultados con los de otros vendedores.

@@ -1,13 +1,14 @@
 ---
-title: "Trabajo en FXD"
+title: "Mi trabajo en Fx Digital"
+slug: "mi-trabajo-en-fx-digital"
 description: "Aspectos destacados y logros de mi experiencia trabajando en Fx Digital"
 pubDate: "Oct 15 2023"
-heroImage: "/portfolio/fxd/thumbnail.png"
+heroImage: "/projects/fxd/thumbnail.png"
 badge: "Destacado"
+featured: true
 tags: ["portfolio", "experiencia", "profesional"]
 ---
 
-[Original content remains here]
 ## Sobre mi trabajo en Fx Digital
 
 Trabajé en [Fx Digital](https://fxdigital.uk/) como desarrollador Frontend por un año y medio. Ahí desarrollé proyectos para televisiones inteligentes, usando principalmente **Lightning.js** y **TypeScript** en mi día a día.

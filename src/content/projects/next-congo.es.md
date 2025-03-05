@@ -1,8 +1,9 @@
 ---
-title: "Plataforma Next Congo"
+title: "Tema de Next.js Congo"
+slug: "tema-nextjs-congo"
 description: "Implementación de Next.js para servicios digitales de Congo"
 pubDate: "Nov 22 2023"
-heroImage: "/portfolio/congo/thumbnail.png"
+heroImage: "/projects/congo/thumbnail.png"
 tags: ["portfolio", "next-js", "desarrollo-web"]
 ---
 
@@ -27,10 +28,10 @@ Tecnologías y metodologías que usé en este proyecto:
 
 ## Imágenes
 
-![Página de inicio del tema](/img/portfolio/congo/congo-home.png)
+![Página de inicio del tema](/projects/congo/congo-home.png)
 
 > Página de inicio
 
-![Formulario de contacto](/img/portfolio/congo/congo-contacto.png)
+![Formulario de contacto](/projects/congo/congo-contacto.png)
 
 > Formulario de contacto

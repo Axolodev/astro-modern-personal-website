@@ -1,9 +1,11 @@
 ---
-title: "Work at Fx Digital"
+title: "My Work at Fx Digital"
+slug: "my-work-at-fx-digital"
 description: "Highlights and achievements from my experience working at Fx Digital"
 pubDate: "Oct 15 2023"
-heroImage: "/portfolio/fxd/thumbnail.png"
+heroImage: "/projects/fxd/thumbnail.png"
 badge: "Featured"
+featured: true
 tags: ["portfolio", "experience", "professional"]
 ---
 

@@ -1,22 +1,11 @@
 ---
 import { FiExternalLink } from "react-icons/fi";
+import { getLangFromUrl, getSidebarLinks } from "src/i18n/utils";
 const { sideBarActiveItemID } = Astro.props;
 const activeClass = "bg-base-300"; // For primary color replace with `active` class
 
-const links = [
-  { id: "home", href: "/", text: "Home" },
-  { id: "cv", href: "/cv", text: "CV" },
-  { id: "projects", href: "/projects", text: "Projects" },
-  { id: "about", href: "/about", text: "About" },
-  { id: "contact", href: "/contact", text: "Contact" },
-  {
-    id: "blog",
-    href: "https://blog.robruizr.dev/",
-    text: "Blog",
-    icon: FiExternalLink,
-    external: true,
-  },
-];
+const language = getLangFromUrl(Astro.url);
+const links = getSidebarLinks(language);
 ---
 
 <ul class="menu grow shrink menu-md overflow-y-auto">
