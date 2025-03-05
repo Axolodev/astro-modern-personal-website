@@ -16,6 +16,11 @@ const {
   image = "/social_img.webp?id=2",
   ogType = "website",
 } = Astro.props;
+
+const baseUrl =
+  import.meta.env.VERCEL_BRANCH_URL ||
+  import.meta.env.VERCEL_PROJECT_PRODUCTION_URL ||
+  "https://robruizr.dev";
 ---
 
 <!-- Global Metadata -->
@@ -31,14 +36,14 @@ const {
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content={ogType} />
-<meta property="og:url" content={Astro.url} />
+<meta property="og:url" content={baseUrl} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
-<meta property="og:image" content={image} />
+<meta property="og:image" content={new URL(image, baseUrl)} />
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content={Astro.url} />
+<meta property="twitter:url" content={baseUrl} />
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
-<meta property="twitter:image" content={image} />
+<meta property="twitter:image" content={new URL(image, baseUrl)} />
