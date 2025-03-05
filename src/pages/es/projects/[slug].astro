@@ -1,0 +1,29 @@
+---
+import ProjectLayout from "@layouts/ProjectLayout.astro";
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const pages = await getCollection("projects");
+  const filteredPagesWithLanguageSuffix = pages.filter((page) => {
+    const parts = page.id.split(".");
+    return parts.length > 2;
+  });
+
+  const paths = filteredPagesWithLanguageSuffix.map((page) => {
+    return {
+      params: { slug: page.slug },
+      props: page,
+    };
+  });
+
+  return paths;
+}
+
+const page = Astro.props;
+
+const { Content } = await page.render();
+---
+
+<ProjectLayout data={page.data}>
+  <Content />
+</ProjectLayout>

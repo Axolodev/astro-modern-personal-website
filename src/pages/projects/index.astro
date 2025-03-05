@@ -6,17 +6,6 @@ import { getAndFilterCollectionByLanguage } from "@lib/getAndFilterCollectionByL
 import { getLangFromUrl, useTranslations } from "@i18n/utils";
 import { sortByFeatured } from "@lib/sortByFeatured";
 
-export async function getStaticPaths() {
-  return [
-    {
-      params: { language: "en" },
-    },
-    {
-      params: { language: "es" },
-    },
-  ];
-}
-
 const portfolioProjects = (
   await getAndFilterCollectionByLanguage("projects")
 ).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
@@ -37,9 +26,7 @@ const t = useTranslations(language);
           title={post.data.title}
           img={post.data.heroImage}
           desc={post.data.description}
-          url={
-            `/${language}/projects/` + createSlug(post.data.title, post.slug)
-          }
+          url={`/projects/` + createSlug(post.data.title, post.slug)}
           target="_self"
           badge={post.data.badge}
         />

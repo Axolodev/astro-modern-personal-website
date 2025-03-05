@@ -1,6 +1,6 @@
 ---
 title: "Caso de Estudio: Aivia"
-slug: "case-de-estudio-aivia"
+slug: "caso-de-estudio-aivia"
 description: "Un análisis detallado del desarrollo e implementación del proyecto Aivia"
 pubDate: "Feb 15 2024"
 heroImage: "/projects/aivia/thumbnail.png"

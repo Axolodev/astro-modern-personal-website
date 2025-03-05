@@ -25,32 +25,57 @@ export const ui = {
   },
 } as const;
 
+export const showDefaultLang = false;
+
+export type SidebarLink = {
+  id: string;
+  href: string;
+  text: string;
+  icon?: React.ComponentType;
+  external?: boolean;
+  useRawPath?: boolean;
+};
+
+const englishSidebarLinks: SidebarLink[] = [
+  { id: "home", href: "/", text: "Home" },
+  { id: "cv", href: "/cv", text: "Resumé" },
+  { id: "projects", href: "/projects", text: "Projects" },
+  { id: "about", href: "/about", text: "About Me" },
+  {
+    id: "blog",
+    href: "https://blog.robruizr.dev/",
+    text: "Blog",
+    icon: FiExternalLink,
+    external: true,
+  },
+  {
+    id: "es",
+    href: "/es/",
+    text: "Cambiar a Español",
+    useRawPath: true,
+  },
+];
+
+const spanishSidebarLinks: SidebarLink[] = [
+  { id: "home", href: "/", text: "Inicio" },
+  { id: "projects", href: "/projects", text: "Proyectos" },
+  { id: "about", href: "/about", text: "Sobre Mí" },
+  {
+    id: "blog",
+    href: "https://blog.robruizr.dev/",
+    text: "Blog (inglés)",
+    icon: FiExternalLink,
+    external: true,
+  },
+  {
+    id: "en",
+    href: "/",
+    text: "Switch to English",
+    useRawPath: true,
+  },
+];
+
 export const sidebarLinks = {
-  en: [
-    { id: "home", href: "/en/", text: "Home" },
-    { id: "cv", href: "/en/cv", text: "Resumé" },
-    { id: "projects", href: "/en/projects", text: "Projects" },
-    { id: "about", href: "/en/about", text: "About Me" },
-    { id: "contact", href: "/en/contact", text: "Contact" },
-    {
-      id: "blog",
-      href: "https://blog.robruizr.dev/",
-      text: "Blog",
-      icon: FiExternalLink,
-      external: true,
-    },
-  ],
-  es: [
-    { id: "home", href: "/es/", text: "Inicio" },
-    { id: "projects", href: "/es/projects", text: "Proyectos" },
-    { id: "about", href: "/es/about", text: "Sobre Mí" },
-    { id: "contact", href: "/es/contact", text: "Contacto" },
-    {
-      id: "blog",
-      href: "https://blog.robruizr.dev/",
-      text: "Blog (inglés)",
-      icon: FiExternalLink,
-      external: true,
-    },
-  ],
+  en: englishSidebarLinks,
+  es: spanishSidebarLinks,
 };
