@@ -4,7 +4,7 @@ slug: "lukers-excellency-club"
 description: "Brand development and digital transformation for Luker"
 pubDate: "Dec 05 2023"
 heroImage: "/projects/luker/thumbnail.png"
-tags: ["portfolio", "branding", "digital-transformation"]
+tags: ["project", "development"]
 ---
 
 ## About this project

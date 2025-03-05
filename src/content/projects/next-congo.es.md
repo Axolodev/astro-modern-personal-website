@@ -4,7 +4,7 @@ slug: "tema-nextjs-congo"
 description: "Implementación de Next.js para servicios digitales de Congo"
 pubDate: "Nov 22 2023"
 heroImage: "/projects/congo/thumbnail.png"
-tags: ["portfolio", "next-js", "desarrollo-web"]
+tags: ["proyecto", "desarrollo"]
 ---
 
 > [Puedes ver un demo aquí](https://next-theme-congo.vercel.app/)

@@ -6,7 +6,7 @@ pubDate: "Oct 15 2023"
 heroImage: "/projects/fxd/thumbnail.png"
 badge: "Destacado"
 featured: true
-tags: ["portfolio", "experiencia", "profesional"]
+tags: ["proyecto", "desarrollo", "SmartTV"]
 ---
 
 ## Sobre mi trabajo en Fx Digital

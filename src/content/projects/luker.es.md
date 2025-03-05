@@ -4,7 +4,7 @@ slug: "club-de-la-excelencia-luker"
 description: "Desarrollo de marca y transformación digital para Luker"
 pubDate: "Dec 05 2023"
 heroImage: "/projects/luker/thumbnail.png"
-tags: ["portfolio", "marca", "transformación-digital"]
+tags: ["proyecto", "desarrollo"]
 ---
 
 ## Acerca del proyecto.
