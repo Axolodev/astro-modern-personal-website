@@ -18,8 +18,7 @@ const {
 } = Astro.props;
 
 const baseUrl =
-  import.meta.env.VERCEL_BRANCH_URL ||
-  import.meta.env.VERCEL_PROJECT_PRODUCTION_URL ||
+  `https://${import.meta.env.VERCEL_BRANCH_URL || import.meta.env.VERCEL_PROJECT_PRODUCTION_URL}` ||
   "https://robruizr.dev";
 ---
 
