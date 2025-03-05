@@ -4,7 +4,7 @@ slug: "proyecto-colegiaturas"
 description: "Desarrollo de plataforma educativa para gestión de matrículas estudiantiles"
 pubDate: "Jan 10 2024"
 heroImage: "/projects/colegiaturas/thumbnail.png"
-tags: ["proyecto", "desarrollo"]
+tags: ["lead", "typescript", "nextjs", "pagos", "REST"]
 ---
 
 ## Acerca del proyecto.

@@ -6,7 +6,7 @@ pubDate: "Oct 15 2023"
 heroImage: "/projects/fxd/thumbnail.png"
 badge: "Destacado"
 featured: true
-tags: ["proyecto", "desarrollo", "SmartTV"]
+tags: ["SmartTV", "Lightning.js", "trabajo", "typescript", "react-native", "jest"]
 ---
 
 ## Sobre mi trabajo en Fx Digital

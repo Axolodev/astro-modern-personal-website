@@ -1,10 +1,10 @@
 ---
 title: "Tema de Next.js Congo"
 slug: "tema-nextjs-congo"
-description: "Implementación de Next.js para servicios digitales de Congo"
+description: 'Implementación de Next.js del tema "Congo" por JPanther'
 pubDate: "Nov 22 2023"
 heroImage: "/projects/congo/thumbnail.png"
-tags: ["proyecto", "desarrollo"]
+tags: ["nextjs", "react", "mdx", "tailwind", "typescript", "open source"]
 ---
 
 > [Puedes ver un demo aquí](https://next-theme-congo.vercel.app/)

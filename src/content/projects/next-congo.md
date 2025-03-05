@@ -1,10 +1,10 @@
 ---
 title: "Nextjs: Congo Theme"
 slug: "nextjs-congo-theme"
-description: "Next.js implementation for Congo's digital services"
+description: "Next.js implementation of JPanther's \"Congo\" theme"
 pubDate: "Nov 22 2023"
 heroImage: "/projects/congo/thumbnail.png"
-tags: ["project", "development"]
+tags: ["nextjs", "react", "mdx", "tailwind", "typescript", "open source"]
 ---
 
 > [Try a demo here!](https://next-theme-congo.vercel.app/)

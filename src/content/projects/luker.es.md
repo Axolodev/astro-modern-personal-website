@@ -1,10 +1,10 @@
 ---
 title: "Club de la Excelencia Luker"
 slug: "club-de-la-excelencia-luker"
-description: "Desarrollo de marca y transformación digital para Luker"
+description: "Plataforma colombiana que recompensa a vendedores que sobrepasan sus metas. "
 pubDate: "Dec 05 2023"
 heroImage: "/projects/luker/thumbnail.png"
-tags: ["proyecto", "desarrollo"]
+tags: ["lead", "typescript", "nextjs", "multiempresa"]
 ---
 
 ## Acerca del proyecto.

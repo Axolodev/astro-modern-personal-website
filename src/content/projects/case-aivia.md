@@ -4,7 +4,7 @@ slug: "case-study-aivia"
 description: "A detailed analysis of the Aivia project development and implementation"
 pubDate: "Feb 15 2024"
 heroImage: "/projects/aivia/thumbnail.png"
-tags: ["project", "ux", "development"]
+tags: ["ux", "next.js", "strapi", "typescript", "lead"]
 ---
 
 ## Introduction
