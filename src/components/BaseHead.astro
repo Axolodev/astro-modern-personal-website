@@ -17,9 +17,7 @@ const {
   ogType = "website",
 } = Astro.props;
 
-const baseUrl =
-  `https://${import.meta.env.VERCEL_BRANCH_URL || import.meta.env.VERCEL_PROJECT_PRODUCTION_URL}` ||
-  "https://robruizr.dev";
+const baseUrl = `https://${import.meta.env.VERCEL_PROJECT_PRODUCTION_URL || import.meta.env.VERCEL_BRANCH_URL || "robruizr.dev"}`;
 ---
 
 <!-- Global Metadata -->
