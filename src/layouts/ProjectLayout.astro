@@ -7,7 +7,7 @@ const formattedDate = page.data?.pubDate?.toLocaleString(language);
 ---
 
 <BaseLayout>
-  <main class="md:flex md:justify-center">
+  <main class="md:flex md:justify-center w-full">
     <article class="prose prose-lg max-w-[750px] prose-img:mx-auto">
       <h1>{page.data?.title}</h1>
       <p>{}{formattedDate}</p>
