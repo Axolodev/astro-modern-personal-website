@@ -9,8 +9,6 @@ featured: true
 tags: ["SmartTV", "Lightning.js", "Trabajo", "TypeScript", "React Native", "Jest"]
 ---
 
-## Sobre mi trabajo en Fx Digital
-
 Trabajé en [Fx Digital](https://fxdigital.uk/) como desarrollador Frontend por un año y medio. Ahí desarrollé proyectos para televisiones inteligentes, usando principalmente **Lightning.js** y **TypeScript** en mi día a día.
 
 ## Tecnologías

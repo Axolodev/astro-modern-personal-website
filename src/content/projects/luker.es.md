@@ -7,8 +7,6 @@ heroImage: "/projects/luker/thumbnail.png"
 tags: ["Lead", "TypeScript", "Next.js", "Multiempresa"]
 ---
 
-## Acerca del proyecto.
-
 Este proyecto fue desarrollado en asociación con el equipo de backend de GeneralSoft. La aplicación fue construida usando NextJS como frontend y .net como backend.
 
 En este proyecto tomé el rol de líder de desarrollo de un equipo de tres personas encargado del frontend de la aplicación. La mayor dificultad fue desarrollar todo en un periodo de seis semanas. Sin embargo, el tiempo se cumplió según lo acordado. El proyecto fue liberado en un servidor Windows

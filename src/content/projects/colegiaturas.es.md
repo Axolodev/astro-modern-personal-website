@@ -7,8 +7,6 @@ heroImage: "/projects/colegiaturas/thumbnail.png"
 tags: ["Lead", "TypeScript", "Next.js", "Pagos", "REST", "GraphQL"]
 ---
 
-## Acerca del proyecto.
-
 Proyecto desarrollado en asociación con el equipo de backend de IntelySoft. La aplicación fue construida usando NextJS como frontend y .net como backend, y usando GraphQL como medio de comunicación.
 
 En este proyecto tomé el rol de líder de desarrollo de frontend. La mayor dificultad fue desarrollar las conexiones con el gateway de pago correspondiente. El proyecto se encuentra trabajando en un servidor Windows.

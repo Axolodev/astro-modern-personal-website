@@ -7,8 +7,6 @@ heroImage: "/projects/aivia/thumbnail.png"
 tags: ["UX", "Next.js", "TypeScript", "Strapi", "Lead"]
 ---
 
-## Introducción al proyecto
-
 En el 2020 el equipo de Iknelia pasó a ser finalista de un concurso organizado por el Tec de Monterrey, la universidad donde trabajo. En este, los concursantes debían crear una herramienta tecnológica que proporcionara un medio para mejorar la situación medioambiental y, gracias a su gran esfuerzo y creatividad, su idea fue la ganadora. Sin embargo, no tenían el conocimiento técnico necesario para crearla del modo que deseaban.
 
 #### Problemática

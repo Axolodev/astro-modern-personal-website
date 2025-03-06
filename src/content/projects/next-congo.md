@@ -9,8 +9,6 @@ tags: ["Next.js", "MDX", "Tailwind", "TypeScript", "Open Source"]
 
 > [Try a demo here!](https://next-theme-congo.vercel.app/)
 
-## About 
-
 Open source project where I'm implementing [JPanther's Congo Theme](https://github.com/jpanther/congo) into Next.js. This is done in order to support additional functionality with React, more personalization, and the power of MDX.
 
 This project is still in development.

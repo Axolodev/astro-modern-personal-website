@@ -7,9 +7,7 @@ heroImage: "/projects/luker/thumbnail.png"
 tags: ["Lead", "TypeScript", "Next.js", "Multi-company"]
 ---
 
-## About this project
-
-A project developed in association with the GeneralSoft backend team. This web application was built using NextJS as frontend and .net as backend.
+Project developed in association with GeneralSoft's backend team. This web application was built using NextJS as frontend and .net as backend.
 
 I worked as the lead developer of a team of three people and coordinated the application's frontend development. The greatest difficulty was to develop everything in a timeframe of six weeks. However, this period was met, and everything was delivered accordingly and deployed to a Windows server.
 
