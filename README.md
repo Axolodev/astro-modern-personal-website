@@ -6,7 +6,7 @@ My own personal website, which uses Manuel Ernesto Garcia's Astrofy theme.
 
 ## Demo
 
-View the live version of [my website](https://my-website-v2-nine.vercel.app/)
+View the [live version of my website here](https://my-website-v2-nine.vercel.app/)
 
 ## Tech Stack
 
