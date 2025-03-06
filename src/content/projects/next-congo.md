@@ -4,7 +4,7 @@ slug: "nextjs-congo-theme"
 description: "Next.js implementation of JPanther's \"Congo\" theme"
 pubDate: "Nov 22 2023"
 heroImage: "/projects/congo/thumbnail.png"
-tags: ["nextjs", "react", "mdx", "tailwind", "typescript", "open source"]
+tags: ["Next.js", "MDX", "Tailwind", "TypeScript", "Open Source"]
 ---
 
 > [Try a demo here!](https://next-theme-congo.vercel.app/)

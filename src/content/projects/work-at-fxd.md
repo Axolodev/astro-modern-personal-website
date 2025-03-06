@@ -6,7 +6,7 @@ pubDate: "Oct 15 2023"
 heroImage: "/projects/fxd/thumbnail.png"
 badge: "Featured"
 featured: true
-tags: ["SmartTV", "Lightning.js", "job", "typescript", "react-native", "jest"]
+tags: ["SmartTV", "Lightning.js", "Job", "TypeScript", "React Native", "Jest"]
 ---
 
 ## About my work at Fx Digital

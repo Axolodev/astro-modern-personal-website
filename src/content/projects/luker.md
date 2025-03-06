@@ -4,7 +4,7 @@ slug: "lukers-excellency-club"
 description: "Colombian eCommerce-like platform that rewards overachieving salespeople."
 pubDate: "Dec 05 2023"
 heroImage: "/projects/luker/thumbnail.png"
-tags: ["lead", "typescript", "nextjs", "multi-company"]
+tags: ["Lead", "TypeScript", "Next.js", "Multi-company"]
 ---
 
 ## About this project

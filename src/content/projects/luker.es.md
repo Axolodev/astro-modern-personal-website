@@ -4,7 +4,7 @@ slug: "club-de-la-excelencia-luker"
 description: "Plataforma colombiana que recompensa a vendedores que sobrepasan sus metas. "
 pubDate: "Dec 05 2023"
 heroImage: "/projects/luker/thumbnail.png"
-tags: ["lead", "typescript", "nextjs", "multiempresa"]
+tags: ["Lead", "TypeScript", "Next.js", "Multiempresa"]
 ---
 
 ## Acerca del proyecto.

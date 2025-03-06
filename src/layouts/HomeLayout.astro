@@ -39,6 +39,7 @@ const translatePath = useTranslatePath(language);
             )}
             target="_self"
             badge={post.data.badge}
+            tags={post.data.tags}
           />
           {index < latestPosts.length - 1 ? <div class="divider my-0" /> : ""}
         </>

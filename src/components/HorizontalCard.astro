@@ -2,7 +2,7 @@
 const { title, img, desc, url, badge, tags, target = "_blank" } = Astro.props;
 import { Image } from "astro:assets";
 
-const filteredTags = tags?.filter((t: string) => t.trim()) || [];
+const filteredTags: string[] = tags?.filter((t: string) => t.trim()) || [];
 ---
 
 <div
@@ -32,7 +32,9 @@ const filteredTags = tags?.filter((t: string) => t.trim()) || [];
           filteredTags.length > 0 && (
             <div class="card-actions gap-0 max-h-[20px] mt-5">
               {filteredTags.map((tag) => (
-                <div class="badge badge-outline first:ml-0 ml-2">{tag}</div>
+                <div class="badge badge-outline first:ml-0 ml-2 capitalize">
+                  {tag}
+                </div>
               ))}
             </div>
           )

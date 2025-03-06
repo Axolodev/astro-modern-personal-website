@@ -4,7 +4,7 @@ slug: "colegiaturas-project"
 description: "Educational platform development for managing student enrollments"
 pubDate: "Jan 10 2024"
 heroImage: "/projects/colegiaturas/thumbnail.png"
-tags: ["lead", "typescript", "nextjs", "payments", "REST", "graphql"]
+tags: ["Lead", "TypeScript", "Next.js", "Payments", "REST", "GraphQL"]
 ---
 
 ## Acerca del proyecto.
