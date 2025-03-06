@@ -1,12 +1,5 @@
 import { z, defineCollection } from "astro:content";
 
-/**
- * title: "Club de la Excelencia Luker"
- * description: "Desarrollo de marca y transformación digital para Luker"
- * pubDate: "Dec 05 2023"
- * heroImage: "/portfolio/luker/thumbnail.png"
- * tags: ["portfolio", "marca", "transformación-digital"]
- */
 const projectSchema = z.object({
   title: z.string(),
   description: z.string(),
