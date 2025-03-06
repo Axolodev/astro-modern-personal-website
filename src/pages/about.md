@@ -12,7 +12,7 @@ Oh, and I'm also a teacher!
 
 I love learning new stuff. I'm passionate about making technology easier for everyone to use, and more accessible. 
 
-I do a lot of React. I've been doing it for six years. I've created e-commerce and marketing sites, enterprise platforms, company websites, and more. Would you like to check out my work? You can find more about it on the [Portfolio section](/portfolio), or get in touch with me using my [contact form](/contact) if you are interested in something in particular.
+I do a lot of React. I've been doing it for six years. I've created e-commerce and marketing sites, enterprise platforms, company websites, and more. Would you like to check out my work? You can find more about it on the [Portfolio section](/projects), or get in touch with me through [LinkedIn](https://linkedin.com/in/robruizr) if you are interested in something in particular.
 
 I speak both Spanish and English, and I'm currently learning German. 
 

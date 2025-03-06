@@ -12,7 +12,7 @@ Oh, ¡y también me encanta la enseñanza!
 
 Me encanta aprender cosas nuevas. Me apasiona encontrar maneras de hacer más fácil y accesible el uso de la tecnología.
 
-Hago mucho desarrollo web usando React. Llevo trabajando con esta herramienta cerca de seis años. He creado sitios de e-commerce y marketing, plataformas corporativas, sitios web de compañías, y más. ¿Te gustaría conocer mi trabajo? Puedes conocer un poco en la [sección de Portafolio](/es/portfolio), o enviarme un mensaje por medio de [mi formulario de contacto](/es/contact) si te interesa algo en especial.
+Hago mucho desarrollo web usando React. Llevo trabajando con esta herramienta cerca de seis años. He creado sitios de e-commerce y marketing, plataformas corporativas, sitios web de compañías, y más. ¿Te gustaría conocer mi trabajo? Puedes conocer un poco en la [sección de Proyectos](/es/projects), o enviarme un mensaje por medio de [LinkedIn](https://linkedin.com/in/robruizr) si te interesa algo en especial.
 
 Hablo fluidamente español e inglés, y estoy aprendiendo alemán.
 
