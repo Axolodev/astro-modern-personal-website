@@ -38,9 +38,9 @@ export type SidebarLink = {
 
 const englishSidebarLinks: SidebarLink[] = [
   { id: "home", href: "/", text: "Home" },
-  { id: "cv", href: "/cv", text: "Resumé" },
-  { id: "projects", href: "/projects", text: "Projects" },
   { id: "about", href: "/about", text: "About Me" },
+  { id: "projects", href: "/projects", text: "Projects" },
+  { id: "cv", href: "/cv", text: "Resumé" },
   {
     id: "blog",
     href: "https://blog.robruizr.dev/",
@@ -58,8 +58,9 @@ const englishSidebarLinks: SidebarLink[] = [
 
 const spanishSidebarLinks: SidebarLink[] = [
   { id: "home", href: "/", text: "Inicio" },
-  { id: "projects", href: "/projects", text: "Proyectos" },
   { id: "about", href: "/about", text: "Sobre Mí" },
+  { id: "projects", href: "/projects", text: "Proyectos" },
+  { id: "cv", href: "/cv", text: "Mi CV" },
   {
     id: "blog",
     href: "https://blog.robruizr.dev/",
