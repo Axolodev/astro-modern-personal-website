@@ -5,3 +5,7 @@
 .time-line-container > :not(first-child) {
   margin-bottom: 16px;
 }
+
+@view-transition {
+  navigation: auto; /* enabled! */
+}

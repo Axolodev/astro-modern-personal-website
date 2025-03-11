@@ -1,9 +1,5 @@
 ---
-import {
-  getLangFromUrl,
-  getSidebarLinks,
-  useTranslations,
-} from "src/i18n/utils";
+import { getLangFromUrl, useTranslations } from "src/i18n/utils";
 
 const language = getLangFromUrl(Astro.url);
 const t = useTranslations(language);
