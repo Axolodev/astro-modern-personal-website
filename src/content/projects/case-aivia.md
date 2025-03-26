@@ -41,7 +41,6 @@ We used the prototype to do usability tests with a group of users similar to San
 - **"Why did it take me off the page when I wanted to check a challenge? I didn't understand what happened"** - Due to one interviewee's mention of this phrase, and the confusion reflected in some other interviewees when interacting with this same section, we decided to change the structure of this part to something that would work within the same site instead of taking the user to an external page.
 
 
-<br />
 #### Application redesign and implementation
 
 Once the collection and analysis of data provided by the interviews were complete, I shared the prototype, comments, and the proposed structure with a designer specialized in UI design, who carried out a total redesign of the application. Once finished, we had a brief cycle of user tests which allowed us to start developing the application.

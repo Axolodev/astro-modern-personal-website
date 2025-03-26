@@ -41,7 +41,6 @@ Utilizamos el prototipo para hacer pruebas de usabilidad con un grupo de usuario
 - **"¿Por qué me sacó de la página al querer ver un reto? No entendí qué pasó."** - Debido a la mención de una entrevistada de esta frase, y de la confusión reflejada en algunos otros entrevistados al interactuar con esta sección de la aplicación, decidimos cambiar la estructura de esta parte a algo que trabajara dentro del mismo sitio, en vez de llevar al usuario a una página externa.
 
 
-<br />
 #### Rediseño e implementación de aplicación
 
 Una vez finalizada la recopilación y análisis de los datos brindados por las entrevistas, compartí el prototipo, los comentarios y la estructura propuesta con una diseñadora especializada en diseño de interfaces gráficas, que realizó un rediseño total de la aplicación. Una vez terminado, hicimos un breve ciclo de pruebas con usuarios y posteriormente comenzamos el desarrollo.
