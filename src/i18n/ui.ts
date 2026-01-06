@@ -14,6 +14,7 @@ export const ui = {
     featured: "Featured Projects",
     "site.title": "Roberto Ruiz | Frontend Developer, Mentor & UX Researcher",
     "site.description": `I'm a Frontend Engineer who loves teaching other people about Frontend development. I'm currently doing a masters degree in Human-Computer Interaction in Germany.`,
+    "toggle-sidebar": "Toggle Sidebar",
   },
   es: {
     "my-projects": "Mis Proyectos",
@@ -22,6 +23,7 @@ export const ui = {
     "site.title":
       "Roberto Ruiz | Desarrollador Frontend, Mentor e Investigador UX",
     "site.description": `Soy un Ingeniero de Frontend que ama enseñar a otras personas sobre desarrollo Frontend. Actualmente estoy haciendo una maestría en Interacción Humano-Computadora en Alemania.`,
+    "toggle-sidebar": "Alternar barra lateral",
   },
 } as const;
 

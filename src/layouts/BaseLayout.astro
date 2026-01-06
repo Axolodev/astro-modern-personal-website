@@ -33,6 +33,9 @@ const {
   </head>
   <body>
     <div class="bg-base-100 drawer lg:drawer-open">
+      <label for="my-drawer" class="visually-hidden"
+        >{t("toggle-sidebar")}</label
+      >
       <input id="my-drawer" type="checkbox" class="drawer-toggle" />
       <div class="drawer-content bg-base-100">
         <Header title={t("site.title")} />
