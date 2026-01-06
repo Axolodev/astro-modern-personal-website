@@ -2,8 +2,6 @@
 import BaseLayout from "./BaseLayout.astro";
 
 const page = Astro.props;
-const { language } = Astro.params;
-const formattedDate = page.data?.pubDate?.toLocaleString(language);
 ---
 
 <BaseLayout>

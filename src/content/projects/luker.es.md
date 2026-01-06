@@ -3,7 +3,7 @@ title: "Club de la Excelencia Luker"
 slug: "club-de-la-excelencia-luker"
 description: "Plataforma colombiana que recompensa a vendedores que sobrepasan sus metas. "
 pubDate: "Dec 05 2023"
-heroImage: "/projects/luker/thumbnail.png"
+heroImage: "./assets/luker/thumbnail.png"
 tags: ["Lead", "TypeScript", "Next.js", "Multiempresa"]
 ---
 
@@ -24,14 +24,14 @@ Tecnologías usadas para el desarrollo de este proyecto.
 
 ## Imágenes
 
-![Página de inicio. Incluye un slideshow, una lista de productos destacados y una lista de los productos más comprados.](/projects/luker/luker-2-home.png)
+![Página de inicio. Incluye un slideshow, una lista de productos destacados y una lista de los productos más comprados.](./assets/luker/luker-2-home.png)
 
 Página de inicio
 
-![Página de carrito. Tiene una tabla de todos los productos que un usuario ha agregado a su carrito, y una tarjeta con el saldo disponible para el usuario.](/projects/luker/luker-4-cart.png)
+![Página de carrito. Tiene una tabla de todos los productos que un usuario ha agregado a su carrito, y una tarjeta con el saldo disponible para el usuario.](./assets/luker/luker-4-cart.png)
 
 Página de carrito
 
-![Página de Ranking. Tiene una tabla donde los usuarios pueden comparar sus resultados con los de otros vendedores.](/projects/luker/luker-5-ranking.png)
+![Página de Ranking. Tiene una tabla donde los usuarios pueden comparar sus resultados con los de otros vendedores.](./assets/luker/luker-5-ranking.png)
 
 Ranking donde los usuarios pueden comparar sus resultados con los de otros vendedores.

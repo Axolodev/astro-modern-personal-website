@@ -21,7 +21,7 @@ const translatePath = useTranslatePath(language);
   </div>
 
   {
-    sortedPortfolioProjects.map((post) => (
+    sortedPortfolioProjects.map((post, index) => (
       <>
         <HorizontalCard
           title={post.data.title}
@@ -30,6 +30,7 @@ const translatePath = useTranslatePath(language);
           url={translatePath(
             `/projects/` + createSlug(post.data.title, post.slug)
           )}
+          eager={index < 3}
           target="_self"
           badge={post.data.badge}
           tags={post.data.tags}

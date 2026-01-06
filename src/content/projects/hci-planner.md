@@ -3,7 +3,7 @@ title: "HCI Planner"
 slug: "hci-planner"
 description: "A comprehensive overview of the development and implementation of the HCI Planner project."
 pubDate: "Apr 8 2025"
-heroImage: "/projects/hci-planner/thumbnail.png"
+heroImage: "./assets/hci-planner/thumbnail.png"
 tags: ["React", "Next.js", "TypeScript", "TailwindCSS", "Open Source"]
 ---
 

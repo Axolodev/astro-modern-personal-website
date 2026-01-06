@@ -3,7 +3,7 @@ title: "Nextjs: Congo Theme"
 slug: "nextjs-congo-theme"
 description: "Next.js implementation of JPanther's \"Congo\" theme"
 pubDate: "Nov 22 2023"
-heroImage: "/projects/congo/thumbnail.png"
+heroImage: "./assets/congo/thumbnail.png"
 tags: ["Next.js", "MDX", "Tailwind", "TypeScript", "Open Source"]
 ---
 
@@ -26,10 +26,10 @@ Technologies & methodologies I worked with while developing this project:
 
 ## Images
 
-![Homepage](/projects/congo/congo-home.png)
+![Homepage](./assets/congo/congo-home.png)
 
 > Homepage
 
-![Contact form](/projects/congo/congo-contacto.png)
+![Contact form](./assets/congo/congo-contacto.png)
 
 > Contact form

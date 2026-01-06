@@ -1,5 +1,14 @@
 ---
-const { title, img, desc, url, badge, tags, target = "_blank" } = Astro.props;
+const {
+  title,
+  img,
+  desc,
+  url,
+  badge,
+  tags,
+  eager,
+  target = "_blank",
+} = Astro.props;
 import { Image } from "astro:assets";
 
 const filteredTags: string[] = tags?.filter((t: string) => t.trim()) || [];
@@ -18,6 +27,8 @@ const filteredTags: string[] = tags?.filter((t: string) => t.trim()) || [];
             height={117}
             format="webp"
             alt={title}
+            sizes="constrained"
+            loading={eager ? "eager" : "lazy"}
             class="max-w-full md:max-w-[13rem] w-[288px] rounded-lg"
           />
         )

@@ -37,6 +37,7 @@ const translatePath = useTranslatePath(language);
             url={translatePath(
               "/projects/" + createSlug(post.data.title, post.slug)
             )}
+            eager={index < 2}
             target="_self"
             badge={post.data.badge}
             tags={post.data.tags}

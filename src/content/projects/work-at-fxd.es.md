@@ -3,7 +3,7 @@ title: "Mi trabajo en Fx Digital"
 slug: "mi-trabajo-en-fx-digital"
 description: "Aspectos destacados y logros de mi experiencia trabajando en Fx Digital"
 pubDate: "Oct 15 2023"
-heroImage: "/projects/fxd/thumbnail.png"
+heroImage: "./assets/fxd/thumbnail.png"
 badge: "Destacado"
 featured: true
 tags: ["SmartTV", "Lightning.js", "Trabajo", "TypeScript", "React Native", "Jest"]

@@ -3,7 +3,7 @@ title: "Case Study: Aivia"
 slug: "case-study-aivia"
 description: "A detailed analysis of the Aivia project development and implementation"
 pubDate: "Feb 15 2024"
-heroImage: "/projects/aivia/thumbnail.png"
+heroImage: "./assets/aivia/thumbnail.png"
 tags: ["UX", "Next.js", "TypeScript", "Strapi", "Lead"]
 ---
 
@@ -17,19 +17,19 @@ Shortly after the contest ended, I was lucky enough to be contacted by Iknelia t
 
 Due to the large effort required to develop all of these ideas and the short period available, we decided to limit the idea to a minimum viable product: a web application for young college students to facilitate learning about environmental issues through online courses and challenges. Having defined this, the team created the Persona profile on whom we would focus all our efforts and who became our guide for the next stages. This is Santiago López Rodríguez:
 
-![Main characteristics of the Persona developed by the Marketing team together with Iknelia. Frustration 1: He is afraid of the health consequences caused by environmental pollution. Frustration 2: He cannot find an easy way to help the environment](/projects/aivia/01-persona-en.png)
+![Main characteristics of the Persona developed by the Marketing team together with Iknelia. Frustration 1: He is afraid of the health consequences caused by environmental pollution. Frustration 2: He cannot find an easy way to help the environment](./assets/aivia/01-persona-en.png)
 
 
 ## Prototype design and Users research
 
 Once we identified our users' frustrations, I guided the team through a week-long focus on a Google Design Sprint design cycle to facilitate the flow of ideas, communication, and prototyping. I then proceeded to create the prototype using Webflow:
 
-![General structure of the application, made by me. It focuses mainly on three screens that are listed in the following image](/projects/aivia/02-mapa.png)
+![General structure of the application, made by me. It focuses mainly on three screens that are listed in the following image](./assets/aivia/02-mapa.png)
 
 General structure of the application made by me
 
 
-![Prototype design of the main pages of the application: "Catalogue page," "course visualization," and "lesson taking." In the image, you can see a video player, a questionnaire, and a comment section](/projects/aivia/03-prototipo.png)
+![Prototype design of the main pages of the application: "Catalogue page," "course visualization," and "lesson taking." In the image, you can see a video player, a questionnaire, and a comment section](./assets/aivia/03-prototipo.png)
 
 Prototype design of the main pages of the application: Catalogue page, course visualization, and lesson taking.
 
@@ -45,11 +45,11 @@ We used the prototype to do usability tests with a group of users similar to San
 
 Once the collection and analysis of data provided by the interviews were complete, I shared the prototype, comments, and the proposed structure with a designer specialized in UI design, who carried out a total redesign of the application. Once finished, we had a brief cycle of user tests which allowed us to start developing the application.
 
-![Formal mapping of screens and application sections done by me. Here you can see all the screens of the application](/projects/aivia/04-mapa-2.png)
+![Formal mapping of screens and application sections done by me. Here you can see all the screens of the application](./assets/aivia/04-mapa-2.png)
 
 Formal mapping of screens and application sections done by me.
 
-![Visual redesign by UI designer](/projects/aivia/05-redisenio.png)
+![Visual redesign by UI designer](./assets/aivia/05-redisenio.png)
 
 Visual redesign by UI designer
 

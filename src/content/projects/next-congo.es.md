@@ -3,7 +3,7 @@ title: "Tema de Next.js Congo"
 slug: "tema-nextjs-congo"
 description: 'Implementación de Next.js del tema "Congo" por JPanther'
 pubDate: "Nov 22 2023"
-heroImage: "/projects/congo/thumbnail.png"
+heroImage: "./assets/congo/thumbnail.png"
 tags: ["Next.js", "MDX", "Tailwind", "TypeScript", "Open Source"]
 ---
 
@@ -26,8 +26,8 @@ Tecnologías y metodologías que usé en este proyecto:
 
 ## Imágenes
 
-![Página de inicio del tema](/projects/congo/congo-home.png)
+![Página de inicio del tema](./assets/congo/congo-home.png)
 *Página de inicio*
 
-![Formulario de contacto](/projects/congo/congo-contacto.png)
+![Formulario de contacto](./assets/congo/congo-contacto.png)
 *Formulario de contacto*

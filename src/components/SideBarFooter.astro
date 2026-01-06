@@ -4,17 +4,17 @@ import { FiCoffee } from "react-icons/fi";
 
 const socialLinks = [
   {
-    name: "Github",
+    name: "My GitHub",
     url: "https://github.com/axolodev",
     icon: IoLogoGithub,
   },
   {
-    name: "Linkedin",
+    name: "My LinkedIn",
     url: "https://www.linkedin.com/in/robruizr",
     icon: IoLogoLinkedin,
   },
   {
-    name: "Support my work",
+    name: "Support my work on Ko-Fi",
     url: "https://ko-fi.com/robruizr",
     icon: FiCoffee,
   },
@@ -31,6 +31,7 @@ const socialLinks = [
         target="_blank"
         rel="noopener noreferrer"
         class="text-2xl mx-3"
+        aria-label={link.name}
       >
         <link.icon />
       </a>

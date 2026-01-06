@@ -3,7 +3,7 @@ title: "Colegiaturas Project"
 slug: "colegiaturas-project"
 description: "Educational platform development for managing student enrollments"
 pubDate: "Jan 10 2024"
-heroImage: "/projects/colegiaturas/thumbnail.png"
+heroImage: "./assets/colegiaturas/thumbnail.png"
 tags: ["Lead", "TypeScript", "Next.js", "Payments", "REST", "GraphQL"]
 ---
 
@@ -25,10 +25,10 @@ Technologies I worked with while developing this project.
 
 ## Images
 
-![Login page. Includes a list of important announcements for users of the platform.](/projects/colegiaturas/login.png)
+![Login page. Includes a list of important announcements for users of the platform.](./assets/colegiaturas/login.png)
 
 Login Page
 
-![Home page. Has a listing of announcements for any users of the platform, appart from a list of relevant links to navigate the site.](/projects/colegiaturas/home.png)
+![Home page. Has a listing of announcements for any users of the platform, appart from a list of relevant links to navigate the site.](./assets/colegiaturas/home.png)
 
 Home Page
