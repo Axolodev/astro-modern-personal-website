@@ -11,7 +11,7 @@ date: "2020-11-01T13:00:25+05:30"
 <div class="py-2">
   <text class="text-lg">
     I'm a Frontend Engineer who loves teaching other people about Frontend
-    development. I'm currently doing a masters degree in Human-Computer
+    development. I'm currently doing a master's degree in Human-Computer
     Interaction in Germany.
   </text>
 </div>

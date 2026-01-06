@@ -10,11 +10,11 @@ I'm a Software Engineer who does Front-end web development. Currently, I'm doing
 
 Oh, and I'm also a teacher! 
 
-I love learning new stuff. I'm passionate about making technology easier for everyone to use, and more accessible. 
+I love learning new stuff. I'm passionate about making technology easier and more accessible for everyone to use.
 
-I do a lot of React. I've been doing it for six years. I've created e-commerce and marketing sites, enterprise platforms, company websites, and more. Would you like to check out my work? You can find more about it on the [Portfolio section](/projects), or get in touch with me through [LinkedIn](https://linkedin.com/in/robruizr) if you are interested in something in particular.
+I do a lot of React. I've been using it since 2018. I've created e-commerce and marketing sites, enterprise platforms, company websites, and more. Would you like to check out my work? You can find more about it on the [Portfolio section](/projects), see my projects on [my GitHub](https://github.com/Axolodev?tab=repositories) or get in touch with me through [LinkedIn](https://linkedin.com/in/robruizr) if you are interested in something in particular.
 
 I speak both Spanish and English, and I'm currently learning German. 
 
-In my free time, I play videogames, read fantasy novels, and practice martial arts. Sometimes I even sing!
+In my free time, I play videogames, read novels and nonfics, and practice bouldering. Sometimes I even sing!
 
