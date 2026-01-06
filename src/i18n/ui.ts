@@ -51,7 +51,7 @@ const englishSidebarLinks: SidebarLink[] = [
   {
     id: "es",
     href: "/es/",
-    text: "Cambiar a Español",
+    text: "Cambiar a Español 🇲🇽",
     useRawPath: true,
   },
 ];
@@ -71,7 +71,7 @@ const spanishSidebarLinks: SidebarLink[] = [
   {
     id: "en",
     href: "/",
-    text: "Switch to English",
+    text: "Switch to English 🇬🇧",
     useRawPath: true,
   },
 ];
