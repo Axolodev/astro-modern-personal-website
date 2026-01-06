@@ -7,7 +7,8 @@
       "@components/*": ["src/components/*"],
       "@layouts/*": ["src/layouts/*"],
       "@lib/*": ["src/lib/*"],
-      "@i18n/*": ["src/i18n/*"]
+      "@i18n/*": ["src/i18n/*"],
+      "@assets/*": ["src/assets/*"]
     },
     "jsx": "react-jsx",
     "jsxImportSource": "react"

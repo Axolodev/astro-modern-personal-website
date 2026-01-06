@@ -3,6 +3,7 @@ import SideBarFooter from "./SideBarFooter.astro";
 import { Image } from "astro:assets";
 import SideBarMenu from "./SideBarMenu.astro";
 const { sideBarActiveItemID } = Astro.props;
+import profilePhoto from "@assets/profile.webp";
 ---
 
 <div class="drawer-side z-40">
@@ -21,7 +22,7 @@ const { sideBarActiveItemID } = Astro.props;
               format="webp"
               width={300}
               height={300}
-              src="/profile.webp"
+              src={profilePhoto}
               alt="A photo of Roberto Reyes"
             />
           </div>
