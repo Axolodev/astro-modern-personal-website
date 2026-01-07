@@ -1,27 +1,32 @@
 ---
 import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io";
 import { FiCoffee } from "react-icons/fi";
+import { getLangFromUrl, useTranslations } from "src/i18n/utils";
+
+const language = getLangFromUrl(Astro.url);
+
+const t = useTranslations(language);
 
 const socialLinks = [
   {
-    name: "My GitHub",
+    name: t("github"),
     url: "https://github.com/axolodev",
     icon: IoLogoGithub,
   },
   {
-    name: "My LinkedIn",
+    name: t("linkedin"),
     url: "https://www.linkedin.com/in/robruizr",
     icon: IoLogoLinkedin,
   },
   {
-    name: "Support my work on Ko-Fi",
+    name: t("ko-fi"),
     url: "https://ko-fi.com/robruizr",
     icon: FiCoffee,
   },
 ];
 ---
 
-<div
+<footer
   class="social-icons px-4 pb-5 pt-1 flex justify-around sticky bottom-0 bg-base-200"
 >
   {
@@ -37,4 +42,4 @@ const socialLinks = [
       </a>
     ))
   }
-</div>
+</footer>
