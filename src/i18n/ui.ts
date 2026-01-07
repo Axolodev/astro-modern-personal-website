@@ -15,6 +15,7 @@ export const ui = {
     "site.title": "Roberto Ruiz | Frontend Developer, Mentor & UX Researcher",
     "site.description": `I'm a Frontend Engineer who loves teaching other people about Frontend development. I'm currently doing a masters degree in Human-Computer Interaction in Germany.`,
     "toggle-sidebar": "Toggle Sidebar",
+    "profile-photo-alt": "A photo of Roberto Ruiz",
   },
   es: {
     "my-projects": "Mis Proyectos",
@@ -24,6 +25,7 @@ export const ui = {
       "Roberto Ruiz | Desarrollador Frontend, Mentor e Investigador UX",
     "site.description": `Soy un Ingeniero de Frontend que ama enseñar a otras personas sobre desarrollo Frontend. Actualmente estoy haciendo una maestría en Interacción Humano-Computadora en Alemania.`,
     "toggle-sidebar": "Alternar barra lateral",
+    "profile-photo-alt": "Una foto de Roberto Ruiz",
   },
 } as const;
 

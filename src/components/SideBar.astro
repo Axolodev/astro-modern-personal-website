@@ -1,9 +1,13 @@
 ---
+import { getLangFromUrl, useTranslations } from "src/i18n/utils";
 import SideBarFooter from "./SideBarFooter.astro";
 import { Image } from "astro:assets";
 import SideBarMenu from "./SideBarMenu.astro";
 const { sideBarActiveItemID } = Astro.props;
 import profilePhoto from "@assets/profile.webp";
+const language = getLangFromUrl(Astro.url);
+
+const t = useTranslations(language);
 ---
 
 <nav class="drawer-side z-40">
@@ -23,7 +27,7 @@ import profilePhoto from "@assets/profile.webp";
               width={300}
               height={300}
               src={profilePhoto}
-              alt="A photo of Roberto Reyes"
+              alt={t("profile-photo-alt")}
             />
           </div>
         </div>
