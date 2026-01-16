@@ -6,7 +6,7 @@ pubDate: "Oct 15 2023"
 heroImage: "./assets/fxd/thumbnail.png"
 badge: "Featured"
 featured: true
-tags: ["SmartTV", "Lightning.js", "Job", "TypeScript", "React Native", "Jest"]
+tags: ["SmartTV", "Lightning.js", "TypeScript", "React Native", "Jest"]
 ---
 
 I worked at [Fx Digital](https://fxdigital.uk/) as a Frontend developer for over a year and a half. For the most part, my work was centered around **Lightning.js** and **TypeScript** for Smart TV app development.

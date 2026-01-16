@@ -1,10 +1,17 @@
 ---
+export const prerender = false;
 import BaseLayout from "@layouts/BaseLayout.astro";
 import HorizontalCard from "@components/HorizontalCard.astro";
 import createSlug from "@lib/createSlug";
 import { getAndFilterCollectionByLanguage } from "@lib/getAndFilterCollectionByLanguage";
 import { getLangFromUrl, useTranslations } from "@i18n/utils";
 import { sortByFeatured } from "@lib/sortByFeatured";
+import TagsList from "@components/TagsList";
+import {
+  customPopstateEventName,
+  tagsFilterName,
+} from "@lib/useGetActiveProjectsFilter";
+import cleanTag from "@lib/cleanTag";
 
 const portfolioProjects = (
   await getAndFilterCollectionByLanguage("projects")
@@ -12,6 +19,27 @@ const portfolioProjects = (
 const sortedPortfolioProjects = sortByFeatured(portfolioProjects);
 const language = getLangFromUrl(Astro.url);
 const t = useTranslations(language);
+
+const tags = new Set<string>();
+
+const wantedTags = [
+  "UX",
+  "Typescript",
+  "Next.js",
+  "Open Source",
+  "Lead",
+  "Tailwind",
+];
+
+for (const project of sortedPortfolioProjects) {
+  if (project.data.tags) {
+    project.data.tags.forEach((tag) => {
+      if (wantedTags.find((t) => t.toLowerCase() === tag.toLowerCase())) {
+        tags.add(tag);
+      }
+    });
+  }
+}
 ---
 
 <BaseLayout title={t("my-projects")} sideBarActiveItemID="projects">
@@ -19,21 +47,67 @@ const t = useTranslations(language);
     <div class="text-3xl w-full font-bold mb-5">{t("my-projects")}</div>
   </div>
 
-  {
-    sortedPortfolioProjects.map((post, index) => (
-      <>
-        <HorizontalCard
-          title={post.data.title}
-          img={post.data.heroImage}
-          desc={post.data.description}
-          url={`/projects/` + createSlug(post.data.title, post.slug)}
-          target="_self"
-          badge={post.data.badge}
-          eager={index < 3}
-          tags={post.data.tags}
-        />
-        <div class="divider my-0" />
-      </>
-    ))
-  }
+  <TagsList tags={Array.from(tags).sort()} client:load />
+
+  <div id="projects-list" class="w-full transition-discrete">
+    {
+      sortedPortfolioProjects.map((post, index) => (
+        <div
+          data-tags={post?.data?.tags?.map((tag) => cleanTag(tag)).join(" ")}
+        >
+          <HorizontalCard
+            title={post.data.title}
+            img={post.data.heroImage}
+            desc={post.data.description}
+            url={`/projects/` + createSlug(post.data.title, post.slug)}
+            target="_self"
+            badge={post.data.badge}
+            eager={index < 3}
+            tags={post.data.tags}
+          />
+          <div class="divider my-0" />
+        </div>
+      ))
+    }
+  </div>
+  <script
+    define:vars={{
+      customPopstateEventName: customPopstateEventName,
+      filterSearchAttributeName: tagsFilterName,
+    }}
+  >
+    const projectsListElement = document.getElementById("projects-list");
+
+    function filterProjects() {
+      if (!projectsListElement) return;
+
+      const filterTag = new URLSearchParams(window.location.search).get(
+        filterSearchAttributeName
+      );
+      const styleId = "projects-filter-style";
+      let styleEl = document.getElementById(styleId);
+
+      if (!styleEl) {
+        styleEl = document.createElement("style");
+        styleEl.id = styleId;
+        document.head.appendChild(styleEl);
+      }
+
+      if (filterTag) {
+        styleEl.textContent = `
+          #projects-list > div:not([data-tags~="${filterTag}"]) {
+            display: none;
+          }
+        `;
+      } else {
+        styleEl.textContent = "";
+      }
+    }
+
+    window.addEventListener(customPopstateEventName, filterProjects);
+
+    (() => {
+      filterProjects();
+    })();
+  </script>
 </BaseLayout>

@@ -4,7 +4,7 @@ slug: "lukers-excellency-club"
 description: "Colombian eCommerce-like platform that rewards overachieving salespeople."
 pubDate: "Dec 05 2023"
 heroImage: "./assets/luker/thumbnail.png"
-tags: ["Lead", "TypeScript", "Next.js", "Multi-company"]
+tags: ["Lead", "TypeScript", "Next.js"]
 ---
 
 Project developed in association with GeneralSoft's backend team. This web application was built using NextJS as frontend and .net as backend.

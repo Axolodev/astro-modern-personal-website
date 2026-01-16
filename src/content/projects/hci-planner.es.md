@@ -4,7 +4,7 @@ slug: "planificador-hci"
 description: "Una visión completa del desarrollo e implementación del planner de HCI."
 pubDate: "Apr 8 2025"
 heroImage: "./assets/hci-planner/thumbnail.png"
-tags: ["React", "Next.js", "TypeScript", "TailwindCSS", "Open Source"]
+tags: ["React", "Next.js", "TypeScript", "Tailwind", "Open Source"]
 ---
 
 > [¡Prueba este proyecto en vivo!](https://hciplanner.robruizr.dev/)

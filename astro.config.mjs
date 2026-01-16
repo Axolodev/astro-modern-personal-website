@@ -5,10 +5,15 @@ import tailwind from "@astrojs/tailwind";
 
 import react from "@astrojs/react";
 
+import vercel from "@astrojs/vercel";
+
 // https://astro.build/config
 export default defineConfig({
   integrations: [mdx(), sitemap(), tailwind(), react()],
+
   image: {
     layout: "full-width",
   },
+
+  adapter: vercel(),
 });

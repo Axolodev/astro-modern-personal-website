@@ -4,7 +4,7 @@ slug: "case-study-aivia"
 description: "A detailed analysis of the Aivia project development and implementation"
 pubDate: "Feb 15 2024"
 heroImage: "./assets/aivia/thumbnail.png"
-tags: ["UX", "Next.js", "TypeScript", "Strapi", "Lead"]
+tags: ["UX", "Next.js", "TypeScript", "Lead"]
 ---
 
 In 2020, Iknelia's team became finalists in a competition organized by Tec de Monterrey, one of the top universities in Latin America and my place of work. In this contest, participants had to create a technological tool that would provide a means to improve the environmental situation. Thanks to their great effort and creativity, Iknelia's idea was the winner. However, they lacked the technical expertise required to develop the application the way they wanted.

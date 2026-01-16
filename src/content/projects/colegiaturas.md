@@ -4,7 +4,7 @@ slug: "colegiaturas-project"
 description: "Educational platform development for managing student enrollments"
 pubDate: "Jan 10 2024"
 heroImage: "./assets/colegiaturas/thumbnail.png"
-tags: ["Lead", "TypeScript", "Next.js", "Payments", "REST", "GraphQL"]
+tags: ["Lead", "TypeScript", "Next.js", "REST", "GraphQL"]
 ---
 
 Project developed in association with the IntelySoft backend team. This web application was built using NextJS as frontend and .net as backend, along with GraphQL as a means of communicating both parts.
