@@ -3,6 +3,8 @@ import useGetActiveProjectsFilter, {
   customPopstateEventName,
   tagsFilterName,
 } from "@lib/useGetActiveProjectsFilter";
+import { navigate } from "astro:transitions/client";
+
 import React, { useCallback } from "react";
 import { IoMdClose } from "react-icons/io";
 
@@ -24,10 +26,10 @@ const TagsList: React.FC<TagsListProps> = ({ tags }) => {
       const newRelativePathQuery =
         window.location.pathname +
         (urlParams.toString() ? `?${urlParams.toString()}` : "");
-      window.history.pushState(null, "", newRelativePathQuery);
+      navigate(newRelativePathQuery);
       window.dispatchEvent(new Event(customPopstateEventName));
     },
-    [activeProjectFilter]
+    [activeProjectFilter],
   );
 
   return (

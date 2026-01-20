@@ -19,6 +19,7 @@ export const ui = {
     linkedin: "My LinkedIn Profile",
     github: "My GitHub Profile",
     "ko-fi": "Support me on Ko-fi",
+    "skip-to-content": "Skip to main content",
   },
   es: {
     "my-projects": "Mis Proyectos",
@@ -32,6 +33,7 @@ export const ui = {
     linkedin: "Mi perfil de LinkedIn",
     github: "Mi perfil de GitHub",
     "ko-fi": "Apóyame en Ko-fi",
+    "skip-to-content": "Saltar al contenido principal",
   },
 } as const;
 

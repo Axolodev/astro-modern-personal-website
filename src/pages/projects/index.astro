@@ -81,7 +81,7 @@ for (const project of sortedPortfolioProjects) {
       if (!projectsListElement) return;
 
       const filterTag = new URLSearchParams(window.location.search).get(
-        filterSearchAttributeName
+        filterSearchAttributeName,
       );
       const styleId = "projects-filter-style";
       let styleEl = document.getElementById(styleId);
@@ -105,8 +105,8 @@ for (const project of sortedPortfolioProjects) {
 
     window.addEventListener(customPopstateEventName, filterProjects);
 
-    (() => {
+    document.addEventListener("astro:page-load", () => {
       filterProjects();
-    })();
+    });
   </script>
 </BaseLayout>
