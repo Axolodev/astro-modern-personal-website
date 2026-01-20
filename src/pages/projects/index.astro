@@ -105,8 +105,8 @@ for (const project of sortedPortfolioProjects) {
 
     window.addEventListener(customPopstateEventName, filterProjects);
 
-    document.addEventListener("astro:page-load", () => {
+    (() => {
       filterProjects();
-    });
+    })();
   </script>
 </BaseLayout>
