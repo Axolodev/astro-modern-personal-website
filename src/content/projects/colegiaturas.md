@@ -23,7 +23,7 @@ Technologies I worked with while developing this project.
 - CSS in JS - Grommet
 - Jest
 
-## Images
+## Screenshots
 
 ![Login page. Includes a list of important announcements for users of the platform.](./assets/colegiaturas/login.png)
 
